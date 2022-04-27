@@ -75,10 +75,10 @@ curso.adicionarAluno('Adrielly', 3, [8, 7, 6.5, 9])
 
 // REFERENTE AO PASSO 5, VERIFICANDO INDIVIDUALMENTE CADA ALUNO, SE ESTA OU NÃO APROVADO
 // EXISTE O PARÂMETRO aluno NO MÉTODO verificaAprovacao(aluno), PODENDO PASSAR POSIÇÕES DO ARRAY listaEstudantes 
-// ASSIM, MUDANDO DINAMICAMENTE O BLOCO DO MÉTODO!
-// console.log(curso.verificaAprovacoes())
+// ASSIM, MUDANDO DINAMICAMENTE O BLOCO DE CÓDIGO DO MÉTODO!
+console.log(curso.verificaAprovacao(4))
 
 
 // REFERENTE AO PASSO 6, VERIFICANDO TODOS OS ALUNOS DE FORMA AUTOMATICA, E COLOCANDO O RESULTADO
 // SE ESTA OU NÃO APROVADO DENTRO DE UM ARRAY
-console.log(curso.verificaAprovacao(4))
+console.log(curso.verificaAprovacoes())
